@@ -1,0 +1,38 @@
+.wrapper {
+	display: grid;
+  grid-template-columns: 0fr 1fr;
+	padding: 24px;
+	gap: 24px;
+}
+.nav {
+	display: flex;
+	flex-direction: column;
+}
+
+.navActive {
+	color: #fff;
+	background: #5fbf77;
+	padding: 12px;
+	cursor: pointer;
+	border-radius: 12px;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 150ms;
+}
+
+.navButtonWrapper {
+	padding: 12px;
+	border: 1px solid #cfcfe4;
+	border-radius: 18px;
+	width: 264px;
+  height: min-content;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.navButton {
+	color: #000;
+	padding: 12px;
+	cursor: pointer;
+}
