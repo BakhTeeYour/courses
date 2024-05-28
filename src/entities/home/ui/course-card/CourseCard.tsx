@@ -1,7 +1,7 @@
-import { Courses } from 'entities/home/model'
+import { Course } from 'entities/home/model'
 import styles from './course-card.module.scss'
 
-const CourseCard = (course: Courses) => {
+const CourseCard = (course: Course) => {
 	return (
 		<div className={styles.card}>
 			<div
